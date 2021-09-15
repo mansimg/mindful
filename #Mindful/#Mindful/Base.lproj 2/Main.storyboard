@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_Mindful" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="JunkFood" translatesAutoresizingMaskIntoConstraints="NO" id="Cre-2X-7Y8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="794"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="647" id="WJa-LK-ysF"/>
+                                    <constraint firstAttribute="width" constant="375" id="fwY-jt-XiP"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yFO-K1-0Xj">
+                                <rect key="frame" x="16" y="92" width="343" height="483"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">                 #Mindful
+
+Did you know? More than 70% of an average person’s diet consists of processed food!           
+
+Processed food has several dangerous effects on one’s health and the environment. Processed food is extremely high in sugar, artificial ingredients, and trans fat, but low in nutrients and fiber. As a result, these ingredients make such “junk” food addictive, as they are easy, tasty, and fast to eat. On the other hand, processed food requires a huge input of energy to produce compared to other healthy alternatives, which unnecessarily increases the carbon footprint of factories. 
+
+#Mindful aims to raise awareness to health food choices in order to save the environment and keep ourselves healthy. This app is a helpful tool to determine the “healthiness” of any food item. 
+
+To find this, take a picture of the food item and our app will immediately scan and give a “food score”  based on the category this product fits into. The categories include but are not limited to: Processed, Fruit, Vegetable, etc. The food score indicates how healthy the item is and there will be suggestions on whether or not to eat this particular product in order to protect your health and save the environment. 
+
+There is a fun incentive to eating healthy too! The healthier the food choice, the more food points. Eco-points are also awarded based on how safe this product is for the environment. 
+
+You can even compete with friends and family to earn the most points! 
+
+The “Settings” screen on this app will direct you to your profile, where there will be four categories: Food score, Eco-points, Shopping history, and Community (to compete with others).  Click on each to view more. 
+
+Finally, the “Markets” screen will help you locate nearby farmers markets to get the best healthy food! 
+
+Be sure to be #Mindful! :) </mutableString>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Cre-2X-7Y8" secondAttribute="trailing" id="Xhk-K9-nVc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="26.53673163418291"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="JunkFood" width="800" height="533"/>
+    </resources>
+</document>
